@@ -7,6 +7,8 @@ test/river_and_lake/output/orbit/
 test/river_and_lake/output/simu/
 test/river_and_lake/output/river/
 test/river_and_lake/output/lake/
+test/river_and_lake/output/laketile/
+test/river_and_lake/output/lakesp/
 
 
 test/patagonia/output/
@@ -19,3 +21,5 @@ test/dem_generator/output/
 !test/river_and_lake/output/simu/.gitkeep
 !test/river_and_lake/output/river/.gitkeep
 !test/river_and_lake/output/lake/.gitkeep
+test/river_and_lake/output/laketile/.gitkeep
+test/river_and_lake/output/lakesp/.gitkeep
