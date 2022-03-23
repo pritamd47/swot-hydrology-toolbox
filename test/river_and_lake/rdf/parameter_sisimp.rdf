@@ -13,9 +13,9 @@ Tile database path = $SWOT_HYDROLOGY_TOOLBOX/sisimp/data/tiles_full.txt.zip
 !Multiple orbit = yes (default) => all orbit files in Orbit directory will be processed
 !Multiple orbit = no => set the Orbit to a correct number found in the Orbit directory; only this orbit file will be processed
 !Multiple orbit = passplan => orbit files will be processed according to passplan.txt file (generated if passplan = yes in select_orbit.rdf)
-Multiple orbit = yes
-Orbit = 14
-Cycle number = 1
+Multiple orbit = passplan
+!# Orbit = 14
+!# Cycle number = 1
 
 !### Simulation parameters
 Swath width = 120000.
@@ -61,9 +61,9 @@ Create dummy pixc vec river file = yes !Produce L2_HR_PIXCVecRiver product assoc
 !### Option 1 - Constant height model, uniform over each water body; height varies sinusoidally with time
 !Specific option: [Height model A = 0.] & [!Height model] => no height applied, height in output onlyt contains errors
 !### Constant height model parameters (same height for each water body) 
-Constant height model A = 0.  !=0 to disable
-Constant height model t0 = 47076
-Constant height model period (days) = 365.25
+!# Constant height model A = 0.  !=0 to disable
+!# Constant height model t0 = 47076
+!# Constant height model period (days) = 365.25
 !### Complex 2D height model parameters (2D variations added for lakes > [Height model min area]) 
 !Height model = polynomial    !=polynomial or gaussian; if disabled, only constant height model
 !Height 2d model min area = 100.     !(ha) min area of water bodies on which to add complex 2D height model (default=100.)
